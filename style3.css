@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	max-width:940px; min-width: 320px;
+	padding:0 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.y {
+	display: flex;
+	margin-top: -15px;
+	justify-content: flex-start;
+}
+
+.y li {
+	margin-right: 0;
+}
+
+.u {
+	display: flex;
+	margin-left: 250px;
+}
+
+.u li {
+	margin-right: 40px;
+	justify-content: flex-end;
+}
+
+header {
+	height: 60px;
+	background-color: #413936;
+
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10000;
+}
+
+header nav ul {
+	display: flex;
+	margin-right: -40px;
+}
+
+header nav ul li {
+	list-style: none;
+	}
+
+
+	
+header nav ul li:hover {
+	transition: 0.3s;
+		}
+	
+
+
+.work {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.workspace {
+	background-image: url(img/raito-akakuro.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+	margin-top: 60px;
+	padding-top: 70px;
+	
+	text-align: center;
+}
+
+.workspace h1 {
+	font-size: 30px;
+}
+
+.workcontena {
+	display: flex;
+	justify-content: center;
+	
+	margin-right: -45px;
+}
+
+.w1 {
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.workitem {
+	margin-top: 20px;
+	margin-right: 45px;
+}
+
+.workitem a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 7px;
+	
+	width: 120px;
+	color: #FFFFFF;
+	background-color: #f3684e;
+	font-size: 18px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	
+	padding-top: 9px;
+	padding-bottom: 9px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 40px;
+}
+
+.go_top {
+	margin-top: 170px;
+	text-align: right;
+	padding-bottom: 50px;
+}
+
+
+	
+	

@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* CSS Document */
+* {
+	margin: 0; padding: 0;
+}
+
+body,html {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+header {
+	background-image: url(img/heroimg.jpg);
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+
+.headeritem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	
+	position: absolute;
+	top: 65%;
+	left: 60%;
+}
+
+.headeritem a {
+	padding-right: 40px;
+}
+
+
+
+/* CSS Document */
+section {
+	background-color: #F3684E;
+}
+
+section:nth-child(even) {
+	background-color: #FFFFFF;
+	}
+
+
+
+/* CSS Document */
+.work {
+	background-image: url(img/raito-akakuro.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+
+
+
+.flexbox1 {
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+	margin-left: -40px;
+}
+
+.flex-item {
+	padding-left: 40px;
+}
+
+.flex-item p {
+	font-size: 19px;
+}
+
+
+.flex-a {
+	padding-top: 40px;
+}
+
+
+
+/* CSS Document */
+.about {
+	background-image:  url(img/raito-shirosen.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.flexbox2 {
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 0;
+	justify-content: center;
+	
+}
+
+.flex-item2 {
+	padding-left: 40px;
+}
+
+.flex-item2 h4 {
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-bottom: 25px;
+}
+
+ruby,rb,rt {
+	display: block;
+}
+
+.flex-item2 rb {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.flex-item2 rt {
+	font-size: 10px;
+}
+
+.flex-item2 p {
+	font-size: 15px;
+	padding-top: 25px;
+}
+
+
+
+/* CSS Document */
+.contact {
+	background-image: url(img/raito-akakuro.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	margin-top: 0;
+}
+
+
+.c-item {
+	padding-top: 50px;
+}
+
+.c-item h1 {
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.c-item p {
+	font-size: 17px;
+	padding-bottom: 10px;
+}
+
+.c-item-a {
+	padding-top: 40px;
+}
+
+
+
+/* CSS Document */
+

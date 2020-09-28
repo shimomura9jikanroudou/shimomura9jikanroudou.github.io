@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	width: 1366px;
+	margin: 0 auto;
+}
+
+p,h1,h2,h3,h4,rb,rt {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+#fotter {
+	background-image: url(img/raito-shiro.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #f3684e;
+	
+	height: 90px;
+	padding-top: 90px;
+	text-align: center;
+}
